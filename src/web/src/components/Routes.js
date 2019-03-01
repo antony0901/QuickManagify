@@ -4,6 +4,7 @@ import DashboardPage from './pages/DashboardPage';
 import ProfilePage from './pages/ProfilePage';
 import TablesPage from './pages/TablesPage';
 import NotFoundPage from './pages/NotFoundPage';
+import ProductsContainer from '../containers/ProductsContainer';
 
 class Routes extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Routes extends React.Component {
         <Route path='/profile' component={ProfilePage} />
         <Route path='/tables' component={TablesPage} />
         <Route path='/404' component={NotFoundPage} />
+        <Route path='/products' component={ProductsContainer} />
       </Switch>
     );
   }
