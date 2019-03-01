@@ -1,0 +1,2 @@
+export const RECEIVE_CURRENCIES = 'currency/RECEIVE_CURRENCIES';
+export const SELECT_CURRENCY = 'currency/SELECT_CURRENCY';

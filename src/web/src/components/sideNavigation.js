@@ -40,6 +40,12 @@ const TopNavigation = () => {
                         Products
                     </MDBListGroupItem>
                 </NavLink>
+                <NavLink to="/currencies" activeClassName="activeClass">
+                    <MDBListGroupItem>
+                        <MDBIcon icon="exclamation" className="mr-3"/>
+                        Currencies
+                    </MDBListGroupItem>
+                </NavLink>
             </MDBListGroup>
         </div>
     );
